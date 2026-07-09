@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const postId = button.getAttribute('data-post');
         const countSpan = button.querySelector('.like-count');
         
+        // Carrega curtidas salvas do LocalStorage
         let currentLikes = localStorage.getItem(`likes_${postId}`) || 0;
         countSpan.textContent = currentLikes;
 
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem(`likes_${postId}`, currentLikes);
             countSpan.textContent = currentLikes;
             
+            // Efeito visual de clique rápido
             button.style.transform = "scale(1.1)";
             setTimeout(() => button.style.transform = "scale(1)", 150);
         });
@@ -25,13 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filterButtons.forEach(btn => {
         btn.addEventListener('click', () => {
+            // Atualiza o botão ativo na tela
             filterButtons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
             const eraFilter = btn.getAttribute('data-era');
 
             posts.forEach(post => {
-                if (eraFilter === 'all' || post.getAttribute('data-era'] === eraFilter) {
+                if (eraFilter === 'all' || post.getAttribute('data-era') === eraFilter) {
                     post.style.display = 'block';
                 } else {
                     post.style.display = 'none';
