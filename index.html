@@ -3,62 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grand Theft Auto Blog</title>
-
-    <link rel="stylesheet" href="styles.css">
+    <title>Grand Theft Auto Chronology Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
+    <header>
+        <h1>Rockstar Chronicles</h1>
+        <p>The Evolution of Grand Theft Auto</p>
+        <div class="filter-container">
+            <button class="filter-btn active" data-era="all">All Eras</button>
+            <button class="filter-btn" data-era="2d">2D Era</button>
+            <button class="filter-btn" data-era="3d">3D Era</button>
+            <button class="filter-btn" data-era="hd">HD Era</button>
+        </div>
+    </header>
 
-    <h1>Grand Theft Auto Blog</h1>
+    <main id="blog-posts">
+        <article class="post" data-era="2d">
+            <h2>Grand Theft Auto (1997)</h2>
+            <p class="meta">The Top-Down Genesis</p>
+            <p>Where it all started. Giving players total freedom in a top-down open-world perspective across Liberty City, San Andreas, and Vice City.</p>
+            <div class="interactive-panel">
+                <button class="like-btn" data-post="gta1">👍 Like (<span class="like-count">0</span>)</button>
+            </div>
+        </article>
 
-    <p>Every GTA Game in One Place</p>
-
-</header>
-
-<nav>
-
-    <ul>
-
-        <li><a href="#gta1">GTA</a></li>
-
-        <li><a href="#gta2">GTA 2</a></li>
-
-        <li><a href="#gta3">GTA III</a></li>
-
-        <li><a href="#vc">Vice City</a></li>
-
-        <li><a href="#sa">San Andreas</a></li>
-
-        <li><a href="#lcs">LCS</a></li>
-
-        <li><a href="#vcs">VCS</a></li>
-
-        <li><a href="#gta4">GTA IV</a></li>
-
-        <li><a href="#eflc">EFLC</a></li>
-
-        <li><a href="#cw">CW</a></li>
-
-        <li><a href="#gta5">GTA V</a></li>
-
-        <li><a href="#gta6">GTA VI</a></li>
-
-    </ul>
-
-</nav>
-
-<main id="posts"></main>
-
-<footer>
-
-    <p>Created with HTML, CSS & JavaScript</p>
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+        <article class="post" data-era="3d">
+            <h2>Grand Theft Auto III (2001)</h2>
+            <p class="meta">The 3D Revolution</p>
+            <p>GTA III completely changed the gaming industry by transitioning the franchise into an incredibly immersive
