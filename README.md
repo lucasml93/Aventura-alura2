@@ -1,4 +1,4 @@
-```md
+
 # Blog da Franquia Grand Theft Auto
 
 Um blog responsivo dedicado à franquia **Grand Theft Auto (GTA)**, apresentando todos os principais jogos da série com informações organizadas em um layout moderno e de fácil navegação.
@@ -72,3 +72,4 @@ Ou utilize uma extensão como **Live Server** no Visual Studio Code para uma mel
 * Grand Theft Auto V
 * Grand Theft Auto VI
 ```
+======
