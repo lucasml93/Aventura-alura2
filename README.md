@@ -1,75 +1,44 @@
+# 🎮 Rockstar Chronicles - Evolução de Grand Theft Auto
 
-# Blog da Franquia Grand Theft Auto
+Este é um projeto de blog estático focado na cronologia e evolução da franquia **Grand Theft Auto (GTA)**, cobrindo desde o primeiro título lançado em 1997 até o aguardado *GTA VI*.
 
-Um blog responsivo dedicado à franquia **Grand Theft Auto (GTA)**, apresentando todos os principais jogos da série com informações organizadas em um layout moderno e de fácil navegação.
+O projeto foi desenvolvido para a plataforma da Alura e está configurado para ser hospedado gratuitamente através do **GitHub Pages**.
 
-## 📌 Funcionalidades
+---
 
-- 📱 Design responsivo para computadores, tablets e celulares.
-- 🎮 Página dedicada para cada jogo da franquia GTA.
-- 📖 Botão **"Ler mais"** para expandir as informações.
-- ⚡ Conteúdo gerado dinamicamente com JavaScript.
-- 🎨 Interface simples, organizada e fácil de personalizar.
-- 🌐 Compatível com o GitHub Pages.
+## 🚀 Funcionalidades
 
-## 🚀 Tecnologias Utilizadas
+* **Filtro por Eras:** Sistema interativo que permite ao usuário filtrar os posts do blog de acordo com a era do jogo (Era 2D, Era 3D e Era HD).
+* **Sistema de Curtidas (Likes):** Botão interativo que armazena a quantidade de curtidas de cada post diretamente no navegador do usuário utilizando `LocalStorage` (as curtidas não somem ao atualizar a página).
+* **Design Responsivo & Temático:** Visual escuro inspirado nas luzes de neon e na identidade visual da franquia (especialmente *Vice City* e *GTA VI*).
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+---
 
 ## 📂 Estrutura do Projeto
 
-```
+O projeto é composto por três arquivos principais conectados entre si:
 
-gta-blog/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-│
-├── assets/
-│   ├── images/
-│   └── logo.png
-│
-└── favicon.ico
+* `index.html`: Contém a estrutura semântica das postagens, os textos informativos e os botões de interatividade.
+* `style.css`: Controla toda a estilização visual, paleta de cores (neon, tons escuros) e efeitos visuais dos botões.
+* `script.js`: Gerencia a lógica do filtro de conteúdo e o funcionamento do contador de curtidas com persistência de dados.
 
-````
+---
 
-## ▶️ Como Executar
+## 🛠️ Como Visualizar o Projeto Localmente
 
-1. Baixe ou clone este repositório:
+1. Faça o clone ou o download deste repositório.
+2. Abra a pasta do projeto no seu editor de código (como o VS Code).
+3. Abra o arquivo `index.html` no seu navegador (ou utilize a extensão *Live Server* do VS Code).
 
-```bash
-git clone https://github.com/seu-usuario/gta-blog.git
-````
+---
 
-2. Abra o arquivo **index.html** em qualquer navegador moderno.
+## 🌐 Hospedagem no GitHub Pages
 
-Ou utilize uma extensão como **Live Server** no Visual Studio Code para uma melhor experiência durante o desenvolvimento.
+Este projeto está pronto para ser publicado! Para ativar a visualização online:
+1. Vá em **Settings** (Configurações) deste repositório no GitHub.
+2. Na barra lateral, clique em **Pages**.
+3. Em *Build and deployment*, selecione a branch `main` (ou `master`) e a pasta `/ (root)`.
+4. Clique em **Save**. Em alguns minutos, o link do seu blog estará pronto!
 
-## 🌍 Publicando no GitHub Pages
-
-1. Faça o upload do projeto para um repositório no GitHub.
-2. Acesse **Settings** → **Pages**.
-3. Em **Source**, selecione a branch **main** (ou **master**) e a pasta **/** (Root).
-4. Salve as alterações.
-5. Após alguns instantes, o site estará disponível no endereço fornecido pelo GitHub Pages.
-
-## 🎮 Jogos Incluídos
-
-* Grand Theft Auto (1997)
-* Grand Theft Auto 2
-* Grand Theft Auto III
-* Grand Theft Auto: Vice City
-* Grand Theft Auto: San Andreas
-* Grand Theft Auto: Liberty City Stories
-* Grand Theft Auto: Vice City Stories
-* Grand Theft Auto IV
-* Grand Theft Auto: Episodes from Liberty City
-* Grand Theft Auto: Chinatown Wars
-* Grand Theft Auto V
-* Grand Theft Auto VI
-```
-======
+---
+Desenvolvido como parte dos estudos de desenvolvimento web. 🕹️
