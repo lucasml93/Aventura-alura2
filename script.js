@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem(`likes_${postId}`, currentLikes);
             countSpan.textContent = currentLikes;
             
-            // Efeito visual de clique
+            // Efeito visual de clique rápido
             button.style.transform = "scale(1.1)";
             setTimeout(() => button.style.transform = "scale(1)", 150);
         });

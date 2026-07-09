@@ -1,36 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grand Theft Auto Chronology Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cronologia Grand Theft Auto</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <header>
         <h1>Rockstar Chronicles</h1>
-        <p>The Evolution of Grand Theft Auto</p>
+        <p>A Evolução de Grand Theft Auto</p>
         <div class="filter-container">
-            <button class="filter-btn active" data-era="all">All Eras</button>
-            <button class="filter-btn" data-era="2d">2D Era</button>
-            <button class="filter-btn" data-era="3d">3D Era</button>
-            <button class="filter-btn" data-era="hd">HD Era</button>
+            <button class="filter-btn active" data-era="all">Todas as Eras</button>
+            <button class="filter-btn" data-era="2d">Era 2D</button>
+            <button class="filter-btn" data-era="3d">Era 3D</button>
+            <button class="filter-btn" data-era="hd">Era HD</button>
         </div>
     </header>
 
     <main id="blog-posts">
         <article class="post" data-era="2d">
             <h2>Grand Theft Auto (1997)</h2>
-            <p class="meta">The Top-Down Genesis</p>
-            <p>Where it all started. Giving players total freedom in a top-down open-world perspective across Liberty City, San Andreas, and Vice City.</p>
+            <p class="meta">O Gênese Visão de Cima</p>
+            <p>Onde tudo começou. Dando aos jogadores liberdade total em uma perspectiva de cima (top-down) através de Liberty City, San Andreas e Vice City.</p>
             <div class="interactive-panel">
-                <button class="like-btn" data-post="gta1">👍 Like (<span class="like-count">0</span>)</button>
+                <button class="like-btn" data-post="gta1">👍 Curtir (<span class="like-count">0</span>)</button>
             </div>
         </article>
 
         <article class="post" data-era="3d">
             <h2>Grand Theft Auto III (2001)</h2>
-            <p class="meta">The 3D Revolution</p>
-            <p>GTA III completely changed the gaming industry by transitioning the franchise into an incredibly immersive
-            
+            <p class="meta">A Revolução 3D</p>
+            <p>GTA III mudou completamente a indústria dos jogos ao transicionar a franquia para um mundo aberto em 3D totalmente imersivo e vivo.</p>
+            <div class="interactive-panel">
+                <button class="like-btn" data-post="gta3">👍 Curtir (<span class="like-count">0</span>)</button>
+            </div>
+        </article>
+
+        <article class="post" data-era="hd">
+            <h2>Grand Theft Auto V (2013)</h2>
+            <p class="meta">A Obra-Prima de Los Santos</p>
+            <p>Apresentando três protagonistas alternáveis e construindo um dos mundos multiplayer e singleplayer mais bem-sucedidos da história do entretenimento.</p>
+            <div class="interactive-panel">
+                <button class="like-btn" data-post="gtav">👍 Curtir (<span class="like-count">0</span>)</button>
+            </div>
+        </article>
+
+        <article class="post" data-era="hd">
+            <h2>Grand Theft Auto VI (2026)</h2>
+            <p class="meta">A Próxima Evolução</p>
+            <p>Levando a série de volta para Vice City e para o estado de Leonida, introduzindo Lucia e Jason em uma evolução hiper-realista da franquia.</p>
+            <div class="interactive-panel">
+                <button class="like-btn" data-post="gtavi">👍 Curtir (<span class="like-count">0</span>)</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Blog Fã de GTA</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

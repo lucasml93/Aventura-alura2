@@ -94,7 +94,7 @@ main {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.15s;
 }
 
 .like-btn:hover {
